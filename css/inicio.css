@@ -1,0 +1,51 @@
+/* Main */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+margin: auto;
+}
+main {
+    width: auto;
+    justify-content: center;
+    padding: 0
+}
+
+/* Carrossel  */
+.gallery {
+    height: 90vh;
+}
+
+.item {
+    height: auto;
+}
+
+.img-banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 375px) {
+
+body {
+    width: 375px;
+}
+
+main {
+    width: 375px;
+}
+
+.gallery {
+    display: none;
+}
+
+}

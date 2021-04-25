@@ -1,0 +1,115 @@
+/* PRESS KIT */
+
+.presskit-main {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-between;
+    /*width: auto;*/
+    max-width: 1100px;
+    padding: 0 200px;
+    margin: auto;
+}
+
+.presskit-info {
+    width: 262px;
+}
+.presskit-titulo {
+    margin-top: 50px;
+}
+
+.presskit-h1 {
+    
+    color: #d5423e;
+    font-size: 3.3em;
+    font-weight: bold;
+}
+
+.presskit-texto {
+    font-size: 1.1em;
+    justify-content:center;
+    line-height: normal;
+    margin: 20px 0;
+    text-align: start;
+    width: 262px;
+}
+
+.presskit-imagem img {
+    height: 530;
+    margin: 50px 0;
+    width: 400px;
+}
+
+.presskit-botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 262px;
+} 
+
+.presskit-baixar {
+    background-color: rgba(204, 204, 204, 1);
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    height: 40px;
+    padding: 10px;
+    transition: all .4s ease;
+    width: 122px;
+}
+
+.presskit-baixar:hover {
+    background-color: #f8be00;
+}
+
+.presskit-itens {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    height: 40px;
+    justify-content: center;
+    padding: 0;
+    transition: all .4s ease;
+    width: auto;
+}
+
+.presskit-itens:hover {
+    color: #f8be00
+}
+
+
+@media screen and (max-width: 375px) {
+
+
+    .presskit-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        margin: auto;
+        width: 100%;
+        align-items: center;
+    }
+
+    
+    .presskit-titulo {
+        font-size: .7rem;
+        margin-top: 10em;
+        margin-bottom: 3em;
+    }
+
+    .presskit-imagem img {
+        display: none;
+    }
+
+    .presskit-h1 {
+        text-align: center;
+        margin-bottom: 1.2em;
+    }
+
+    .presskit-texto {
+        text-align: center;
+        font-size: 2em;
+    }
+}
